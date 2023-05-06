@@ -25,15 +25,44 @@ main {
   padding: 20px;
 }
 
+h1 {
+  margin-bottom: 25px;
+}
+
 header {
   display: none;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 60px;
+  position: fixed;
+  background-color: #0068b5;
+  align-items: center;
+}
+
+.menu-openner {
+  margin-right: 15px;
+  font-size: 26px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.menu-openner span {
+  margin-right: 10px;
+}
+
+.menu-close {
+  width: 32px;
+  height: 32px;
+  display: none;
+  font-size: 30px;
 }
 
 .cart-area {
-  display: none;
+  padding: 20px;
 }
 
-.momdeloModal {
+.modeloModal {
   display: none;
 }
 
@@ -75,6 +104,7 @@ header {
   width: 50px;
   height: 50px;
   line-height: 50px;
+  margin-top: 6px;
   border-radius: 25px;
   background-color: var(--color-buttonAdd);
   color: #fff;
@@ -83,23 +113,89 @@ header {
   transition: all ease 0.2s;
 }
 
-.modelo-item:hover .modelo-item-add {
+.modelo-item-add:hover {
   background-color: #2f853b;
-  transform: rotate(180deg);
+  transform: scale(1.1);
 }
 
 .modelo-item-price {
   font-size: 16px;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 .modelo-item-name {
   font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
+  transition: .3s;
 }
 
 .modelo-item-desc {
-    font-size: 14px;
-    margin-top: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+aside {
+  background-color: purple;
+  width: 0vw;
+  overflow: hidden;
+  font-family: "Roboto", Helvetica, Arial;
+}
+
+.modeloModal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.modeloModalBody {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #0068b5;
+}
+
+/*media queries*/
+@media (max-width: 1000px) {
+  .modelo-area {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 840px) {
+  header {
+    display: flex;
+  }
+  main {
+    padding-top: 80px;
+  }
+  .modelo-area {
+    gap: 20px;
+  }
+  .modelo-item-name {
+    font-size: 18px;
+  }
+}
+aside {
+  width: auto;
+  position: fixed;
+  left: 100vw;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.cart-area {
+  width: 100vw;
+}
+
+.menu-close {
+  display: block;
 }
