@@ -27,6 +27,8 @@ main {
 
 h1 {
   margin-bottom: 25px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 header {

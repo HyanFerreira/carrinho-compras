@@ -5,7 +5,7 @@ let modeloJson = [
       img: 'img/1.png',
       price: 399,
       sizes: ['malha', 'algodão', 'dry'],
-      description: 'Hardware de ultima geração!',
+      description: 'Placa mãe H510M-HVS, ótima placa para o seu pc gamer.',
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ let modeloJson = [
       img: 'img/2.png',
       price: 1699,
       sizes: ['algodão', 'malha', 'dry'],
-      description: 'Hardware de ultima geração!',
+      description: 'RTX 2060, roda GTA V, Fortnite, CS GO, Valorant e muito mais em full hd.',
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ let modeloJson = [
       img: 'img/3.png',
       price: 2999,
       sizes: ['dry', 'malha', 'algodão'],
-      description: 'Hardware de ultima geração!',
+      description: 'RTX 3090, roda todos os jogos da atualidade em ultra hd.',
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ let modeloJson = [
       img: 'img/4.png',
       price: 499,
       sizes: ['algodão', 'malha', 'dry'],
-      description: 'Hardware de ultima geração!',
+      description: 'O melhor gabinete para o seu pc gamer',
     },
     {
       id: 5,
@@ -37,7 +37,7 @@ let modeloJson = [
       img: 'img/5.png',
       price: 249.99,
       sizes: ['malha', 'algodão', 'dry'],
-      description: 'Hardware de ultima geração!',
+      description: 'Memória RAM de 16GB DDR4, ajuda o seu processador a rodar o mundo em ultra hd.',
     },
     {
       id: 6,
@@ -45,7 +45,7 @@ let modeloJson = [
       img: 'img/6.png',
       price: 289.79,
       sizes: ['malha', 'dry', 'algodão'],
-      description: 'Hardware de ultima geração!',
+      description: 'SSD de 480GB da Kingstom, alta velocidade de processamento e transferência de dados.',
     },
     // {
     //   id: 7,
