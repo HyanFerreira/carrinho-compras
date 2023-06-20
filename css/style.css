@@ -139,10 +139,15 @@ header {
 }
 
 aside {
-  background-color: purple;
+  background-color: #0068b5;
   width: 0vw;
   overflow: hidden;
   font-family: "Roboto", Helvetica, Arial;
+  transition:  all ease .2s;
+}
+
+aside.show {
+  width: 30vw;
 }
 
 .modeloWindowArea {

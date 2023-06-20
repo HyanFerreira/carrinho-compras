@@ -49,7 +49,7 @@ let modeloJson = [
     },
     // {
     //   id: 7,
-    //   name: 'Camiseta Marrom',
+    //   name: '',
     //   img: 'img/camisetaM.jpg',
     //   price: 22.36,
     //   sizes: ['malha', 'dry', 'dry'],
